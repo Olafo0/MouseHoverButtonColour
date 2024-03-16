@@ -17,7 +17,7 @@ namespace MouseHoverButton
             }
         }
 
-        // 1 option
+        // option 1
         Color CurrentColour;
         private void Button_MouseEnter(object sender, EventArgs e)
         {
@@ -69,7 +69,7 @@ namespace MouseHoverButton
             button.BackColor = Color.FromArgb(newR, newG, newB);
         }
 
-        // 2 option
+        // option 2
         private void Button_Ent(object sender, EventArgs e)
         {
 
