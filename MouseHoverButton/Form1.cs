@@ -88,12 +88,6 @@ namespace MouseHoverButton
         private void Button_MouseLeav(Object sender, EventArgs e)
         {
             Button button = sender as Button;
-
-
-            int R = int.Parse(CurrentColour.R.ToString());
-            int G = int.Parse(CurrentColour.G.ToString());
-            int B = int.Parse(CurrentColour.B.ToString());
-            Console.WriteLine($"LEAVE: {R},{G},{B}");
             button.BackColor = CurrentColour;
         }
 
